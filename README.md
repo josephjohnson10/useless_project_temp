@@ -1,26 +1,23 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# Slangify 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
-
+### Team Name: Homies
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
-
+- Team Lead: Joseph Johnson
+- 
 ### Project Description
-[2-3 lines about what your project does]
+The Basic Aim to Input a language and Generate the output as the same language in native slangs.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+The problem that doesn't exist here is the people having same mother toungue have difficulty in speaking with other natives. 
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+The only solution that exist is parsing a language and converting the same language with different slang without changing the meaning of the language.
 
 ## Technical Details
 ### Technologies/Components Used
