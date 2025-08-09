@@ -1,26 +1,24 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# Mallu Slang 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Homies
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Joseph Johnson - College of Engineering Trivandrum
 
 ### Project Description
-[2-3 lines about what your project does]
+The Project is to convert the Malayalam language into different slang for each district
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+The naitves of same mother tongue feels awkward when speaking in different slangs
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We have made a simple slang convertion tool which for a particular Language without changing the meaning
 
 ## Technical Details
 ### Technologies/Components Used
