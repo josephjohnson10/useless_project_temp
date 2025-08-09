@@ -83,6 +83,12 @@ Use the "SlangIntensity" parameter to control the depth of slang:
 -   **high**: Deep, informal slang with a strong, unmistakable district identity. **This is where you should use the most unique, hyper-local, and creative terms.**
 
 --------------------
+## DISTRICT-SPECIFIC GUIDANCE
+
+### Kannur Slang Focus:
+Pay special attention to Kannur slang. It is highly distinct. Use words like "ബല്ലാത്ത" (for "very" or "a lot"), "ഇജ്ജ്" or "നിജ്ജ്" (for "you"), and the characteristic "-ഓൻ" and "-ഓള്" endings. The tone can be more direct and clipped. For example, "Where are you going?" in high-intensity Kannur slang could be "ഇജ്ജ് എടേ പോന്ന്?". Ensure this level of authenticity.
+
+--------------------
 ## OUTPUT FORMAT (Strict JSON Array)
 Your entire output must be a single JSON array containing exactly 14 objects, one for each district, in the specified order. Do not add any text before or after the JSON array.
 
