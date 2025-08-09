@@ -23,7 +23,7 @@ We have made a simple slang convertion tool which for a particular Language with
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- [Languages ]
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]
