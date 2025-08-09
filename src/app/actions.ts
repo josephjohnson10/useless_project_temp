@@ -5,6 +5,7 @@ import { dialectTranslation, DialectTranslationOutput } from '@/ai/flows/dialect
 import { analyzeSentence, SentenceAnalysisInput, SentenceAnalysisOutput } from '@/ai/flows/sentence-analysis';
 import { reverseTranslation, ReverseTranslationInput, ReverseTranslationOutput } from '@/ai/flows/reverse-translation';
 import { getCulturalInsights, CulturalInsightInput, CulturalInsightOutput } from '@/ai/flows/cultural-insights';
+import { textToSpeech, TextToSpeechInput, TextToSpeechOutput } from '@/ai/flows/text-to-speech';
 
 
 const DialectTranslationInputSchema = z.object({
@@ -86,4 +87,23 @@ export async function getCulturalInsightsApi(input: CulturalInsightInput): Promi
     console.error('Error in cultural insights flow:', error);
     throw new Error('Failed to get cultural insights due to a server error.');
   }
+}
+
+const TextToSpeechRequestSchema = z.object({
+    text: z.string(),
+});
+
+export async function textToSpeechApi(input: TextToSpeechInput): Promise<TextToSpeechOutput> {
+    const parsedInput = TextToSpeechRequestSchema.safeParse(input);
+    if (!parsedInput.success) {
+        throw new Error('Invalid input for text-to-speech');
+    }
+
+    try {
+        const result = await textToSpeech(parsedInput.data);
+        return result;
+    } catch (error) {
+        console.error('Error in text-to-speech flow:', error);
+        throw new Error('Failed to generate audio due to a server error.');
+    }
 }

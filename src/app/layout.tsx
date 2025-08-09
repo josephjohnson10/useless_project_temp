@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Bhasha Boli',
+  title: 'Mallu Slangify',
   description: 'AI Malayalam dialect converter',
 };
 
